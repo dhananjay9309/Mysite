@@ -40,6 +40,15 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
+  .owl-carousel.owl-drag .owl-item {
+  -ms-touch-action: auto;
+  touch-action: auto;
+  -webkit-user-select: all;
+  -moz-user-select: all;
+  -ms-user-select: all;
+  user-select: all;
+  }
+
 html {
   font-family: sans-serif;
   line-height: 1.15;
